@@ -1,3 +1,4 @@
+import 'package:car_app/screens/forgotPassword.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
@@ -148,6 +149,25 @@ class _LoginScreen extends State<LoginScreen> {
                             height: 1.2125 * ffem / fem,
                             color: const Color(0xffffffff),
                           ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin:
+                    EdgeInsets.fromLTRB(0 * fem, 0 * fem, 1 * fem, 0 * fem),
+                    child: GestureDetector(
+                      onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => ForgotPasswordScreen())),
+                      child: RichText(
+                      text: TextSpan(
+                        text: 'Forgot password?',
+                        style: SafeGoogleFont(
+                          'Inter',
+                          fontSize: 12 * ffem,
+                          fontWeight: FontWeight.w400,
+                          height: 1.2125 * ffem / fem,
+                          color: const Color(0xff0c747e),
+                        ),
                         ),
                       ),
                     ),

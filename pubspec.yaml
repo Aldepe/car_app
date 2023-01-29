@@ -69,6 +69,17 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/WiredMaps_logo.png
+    - assets/images/profilePicture.png
+    - assets/images/Chevy Bolt EVEUV.png
+    - assets/images/Ford F-150 LightningRivian R1T.png
+    - assets/images/Ford Mustang Mach-E.png
+    - assets/images/Hyundai IONIQ 5.png
+    - assets/images/Kia EV6.png
+    - assets/images/Tesla Model S.png
+    - assets/images/Tesla Model Y.png
+    - assets/images/Tesla Model X.png
+    - assets/images/Tesla Model 3.png
+    - assets/images/Volkswagen ID.4.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

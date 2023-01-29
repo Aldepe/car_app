@@ -1,6 +1,8 @@
 import 'package:car_app/screens/handle.dart';
 import 'package:car_app/screens/login.dart';
 import 'package:car_app/screens/register.dart';
+import 'package:car_app/screens/user.dart';
+import 'package:car_app/screens/verifyEmail.dart';
 import 'package:car_app/utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +42,7 @@ class MainPage extends StatelessWidget {
           stream: FirebaseAuth.instance.authStateChanges(),
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return const Center(child: Text('FUNCIONA!'));
+              return VerifyEmailScreen();
             } else if (snapshot.hasError) {
               return const Center(child: Text('Something went wrong!'));
             } else if (snapshot.connectionState == ConnectionState.waiting) {
