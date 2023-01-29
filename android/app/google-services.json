@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "783492120129",
+    "project_id": "wiredmaps-a4536",
+    "storage_bucket": "wiredmaps-a4536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783492120129:android:d78cd59ace2791a42290c0",
+        "android_client_info": {
+          "package_name": "com.example.car_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783492120129-pq9sg05aultg0234nsgtubprkhdmjb7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjYrZ8khNzY9bGt3sYNPyQPo9Qwim0gsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783492120129-pq9sg05aultg0234nsgtubprkhdmjb7k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783492120129-qfk3ln5nr6rak18961tilh33rs2dvrr0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.carApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
